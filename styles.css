@@ -1,0 +1,19 @@
+/* .logo{
+  background-color: #02475e;
+} */
+.dmc-logo{
+  height: 100px;
+  width: 250px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.navbar-bg{
+  background-color: #02475e;
+}
+.navbar-nav{
+margin-left: 35%;
+}
+.navbar-brand{
+  font-size: 60px !important;
+  font-family: 'Staatliches', cursive;
+}
