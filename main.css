@@ -1,0 +1,583 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: "Teko", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+.theme-color{
+  color: #02475e ;
+}
+
+.top-nav {
+  padding: 10px;
+  background: #131313;
+  color: white;
+}
+
+.top-nav p {
+  margin-bottom: 0;
+}
+
+.grain{
+  padding-bottom: 15px;
+}
+
+.top-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-bottom: 0;
+}
+
+.top-nav ul li {
+  list-style: none;
+}
+
+.top-nav ul li a {
+  color: white;
+}
+
+.head-color {
+  color: #02475e ;
+}
+
+::selection{
+  background-color: rgb(110, 154, 179);
+  color: rgb(251, 253, 255);
+}
+
+.f-14-5 {
+  font-size: 14.5px;
+  font-weight: 200;
+  text-align: justify;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+.mt-6{
+  margin-top: 60px;
+}
+
+#navbarContent{
+  margin-top: 5px;
+}
+
+.welcomeScreenHeight {
+  height: 522px;
+  margin-top: 60px;
+}
+
+.about-img-height{
+  height: 420px;
+}
+
+.blockboard-img-height{
+  height: 500px;
+  margin-top: 60px;
+}
+
+
+.aboutus-dmc:hover{
+  color: #77ACF1;
+  text-decoration: none;
+}
+
+.director{
+  font-size: 45px;
+}
+
+.aboutus-dmc{
+  text-decoration: none;
+  color:  #02475e;
+}
+
+.welcome-screen {
+  height: 100%;
+  background-image: url("product/2.jpg");
+}
+.welcome-screen-2 {
+  height: 100%;
+  background-image: url("product/director.jpeg");
+}
+
+.bg-reset{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-theme {
+  background: #fff;
+}
+
+li.nav-item{
+  padding: 0px 6px;
+}
+
+.nav-link, .dropdown-item {
+  text-transform: uppercase;
+  font-family: "Teko", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 19px;
+  letter-spacing: .05em;
+}
+
+
+.nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > a:after {
+  content: "\f0da";
+  float: right;
+  border: none;
+  font-family: 'FontAwesome';
+}
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.after-head:after{
+  content: '';
+  height: 5px;
+  width: 150px;
+  /* background: ; */
+  background-color: #02475e ;
+  position: relative;
+  display: block;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btn-bg{
+  background-color: #02475e ;
+  padding: 17px 35px 13px;
+  line-height: 5px;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 0.5px;
+  border-radius: 50px;
+}
+
+.anchor-color{
+  color: white;
+  text-decoration: none !important;
+}
+
+.anchor-text-size{
+  font-size: 18px;
+}
+
+
+.btn-bg:hover{
+  background-color: #121212;
+  border-radius: 0px;
+  color: rgb(245, 249, 255);
+}
+
+.prod-1{
+  height: 280px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.h-100-p{
+  height: 100%;
+}
+
+.prod-1-img{
+  height: 230px;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.first-img{
+  background-image: url("product/distiller.jpg");
+}
+
+.second-img{
+  background-image: url("product/plant.jpg");
+}
+
+.third-img{
+  background-image: url("product/pharma2.jpg");
+}
+
+.four-img{
+  background-image: url("product/animal-feed.jpg");
+}
+
+/* product page */
+
+/* .img-1{
+  background-image: url("product/gluco62x.jpg");
+
+
+} */
+
+.alcohol{
+  height: 230px;
+  width: 350px;
+}
+.alcohol3{
+  height: 230px;
+  width: 250px;
+}
+
+.img-5{
+  background-image: url("product/falig.jpg");
+}
+
+.img-13{
+  background-image:url("product/falim.jpeg");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.prod-text{
+  border: 1px solid #ddd;
+  background-color: #eee;
+  color: #02475e;
+  padding: 10px;
+  /* text-align: center; */
+  transition: all 0.3s ease-in-out;
+}
+
+.prod-1:hover .prod-1-img{
+  transform: scale(1);
+}
+
+.prod-1:hover .prod-text{
+  background-color:#02475e;
+  color: #eee;
+}
+
+.service-offered{
+  height: 310px;
+  background-image: url("product/service.jpg");
+  background-position: center;
+  /* background-color: #02475e ; */
+  background-size: cover;
+  opacity: 0.8;
+  background-blend-mode: lighten;
+  background-attachment: fixed;
+}
+
+.white{
+  color: #eee;
+}
+
+.white::after{
+  background-color: #eee;
+}
+
+.blur-bg{
+  color:#FDFEFF;
+  text-shadow: 1px 1px #222222;
+}
+
+.mt-10{
+  margin-top: 100px;
+}
+
+.mb-10{
+  margin-bottom: 100px;
+}
+
+
+.cta{
+  padding: 35px 0px;
+  background-color: #02475e ;
+  color: white;
+}
+
+.cta h3{
+  font-weight: normal;
+  margin-bottom: 0px;
+  padding-top: 12px;
+}
+
+.poppins{
+  font-family: 'Poppins', sans-serif;
+}
+
+.cta .btn{
+  float: right;
+  padding: 13px 30px;
+  background-color: #fff;
+  color: #02475e ;
+}
+
+.footer{
+  padding-top: 80px;
+  background-color: #02475e;
+  font-family: 'Poppins';
+}
+
+.footer h4 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: "Teko", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #535353;
+}
+
+.footer a {
+  color: #fff;
+  font-size: 13px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.links a{
+  font-size: 14px;
+}
+
+.femail:hover{
+  font-size: 14px !important;
+ color: #77ACF1;
+}
+
+.footer .footer-inner .contact-info li {
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 14px;
+  list-style: none;
+}
+.footer .footer-inner .social-list {
+  margin: 10px 0 0;
+}
+
+.footer .footer-inner .social-list li a {
+  font-size: 14px;
+  float: left;
+  margin-right: 20px;
+}
+
+.footer .footer-inner .links li {
+  margin-bottom: 15px;
+  position: relative;
+  line-height: 20px;
+  list-style: none;
+}
+
+.social-list li{
+  list-style: none;
+}
+
+ul.links i{
+  padding-right: 20px;
+}
+
+.footer .footer-inner p {
+  line-height: 27px;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.footer .copy {
+  padding: 20px 0;
+  border-top: solid 1px #1b1b1b;
+  margin: 50px 0 0;
+  text-align: center;
+}
+
+.btl{
+  border-bottom: 1px solid #ccc;
+  padding-top: 8px;
+  color: white;
+}
+
+.btl2{
+  border-bottom: none;
+}
+
+.dropdown-menu{
+  padding: 0;
+  background-color: #02475e;
+}
+
+.banner-txt-info{
+  background: rgba(0, 0, 0, 0.04) url(contact.jpg) top left repeat;
+  background-size: cover;
+  height: 555px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  background-color: rgba(36, 42, 53, 0.7);
+}
+
+
+.v-m{
+  /* height: 250px; */
+  padding: 25px;
+  background-color: #222;
+  background-blend-mode: color-dodge;
+  background-image: url("../assets/welcome-images/fixed-banner3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.f-14{
+  font-size: 14px;
+}
+
+.f-17{
+  font-size: 17px;
+}
+
+.director-sect{
+  padding: 50px;
+}
+
+.director-img{
+  height: 350px;
+  background-image: url("../assets/welcome-images/director.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.director-img::before{
+  content: '';
+  height: 2px;
+  width: 150px;
+  background-color: #02475e ;
+  display: block;
+  position: relative;
+  left: 450px;
+  top: 290px;
+}
+
+.director-img::after{
+  content: 'Ajay Maniktaka';
+  display: block;
+  color: #02475e ;
+  font-family: "Poppins";
+  font-size: 36px;
+  position: relative;
+  left: 610px;
+  top: 275px;
+}
+
+.director-quote{
+  font-size: 40px;
+  line-height: 36px;
+  color: #02475e ;
+  position: relative;
+}
+
+.parent-heading{
+  background-color: #222;
+  color: white;
+}
+
+.table-heading{
+  background-color: #02475e ;
+  color: white;
+}
+
+.parent-heading th{
+  font-weight: 500;
+  color: #02475e ;
+}
+
+.custom-form input[type="text"], .custom-form input[type="email"]{
+  width: 100%;
+  height: 55px;
+  border: 1px solid #eaeaea;
+  display: block;
+  padding: 0 15px;
+  margin-bottom: 30px;
+  font-family: 'Poppins';
+  outline: none;
+  transition: all 500ms ease;
+}
+
+.message-height{
+  height: 140px;
+  width: 100%;
+  border: 1px solid #eaeaea;
+  display: block;
+  padding: 12px 15px;
+  margin-bottom: 30px;
+  font-family: 'Poppins';
+  outline: none;
+  transition: all 500ms ease;
+}
+
+.custom-form input[type="text"]:focus, .custom-form input[type="email"]:focus, .message-height:focus{
+  outline-width: 2px;
+  outline: auto;
+}
+
+
+.btn-style{
+  background-color: #02475e ;
+  color: white;
+  border: none;
+  width: 100%;
+  font-family: 'Poppins';
+  height: 55px;
+  font-size: 18px;
+  width: fit-content;
+  padding: 12px 60px;
+}
+
+.f-18{
+  font-size: 18px;
+}
+
+.contact-form-heading{
+  background-color: #02475e ;
+  color: white;
+  padding: 20px;
+  width: fit-content;
+}
+
+.msg-height2{
+  height: 225px !important;
+}
+
+input[type="file"]{
+  padding-top: 10px;
+}
